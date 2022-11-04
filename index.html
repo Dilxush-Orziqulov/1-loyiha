@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olcha.uz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+
+    <header>
+        <div class="wrapper">
+            <div class="header-top">
+                <div class="header-top__left-side">
+                    <nav class="lang">
+                        <div class="lang-active">
+                            <img src="https://olcha.uz/_nuxt/img/oz.7c25b4b.svg" alt="">
+                            <span>Uzb</span>
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTguNzEwMDUgMTEuNzFMMTEuMzAwMSAxNC4zQzExLjY5MDEgMTQuNjkgMTIuMzIwMSAxNC42OSAxMi43MTAxIDE0LjNMMTUuMzAwMSAxMS43MUMxNS45MzAxIDExLjA4IDE1LjQ4MDEgMTAgMTQuNTkwMSAxMEg5LjQxMDA1QzguNTIwMDUgMTAgOC4wODAwNSAxMS4wOCA4LjcxMDA1IDExLjcxWiIgZmlsbD0iI2ZmZmZmZiIvPgo8L3N2Zz4K"
+                                alt="">
+                        </div>
+                        <ul class="lang-items">
+                            <li class="lang-item">
+                                <img src="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB4bWw6c3BhY2U9InByZXNlcnZlIgogIHdpZHRoPSI0Mi4zMzM0bW0iCiAgaGVpZ2h0PSIyOS42MzRtbSIKICB2ZXJzaW9uPSIxLjAiCiAgc3R5bGU9InNoYXBlLXJlbmRlcmluZzpnZW9tZXRyaWNQcmVjaXNpb247IHRleHQtcmVuZGVyaW5nOmdlb21ldHJpY1ByZWNpc2lvbjsgaW1hZ2UtcmVuZGVyaW5nOm9wdGltaXplUXVhbGl0eTsgZmlsbC1ydWxlOmV2ZW5vZGQ7IGNsaXAtcnVsZTpldmVub2RkIgogIHZpZXdCb3g9IjAgMCA0MjE5LjEzIDI5NTMuNDUiPgogPGRlZnM+CiAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgPCFbQ0RBVEFbCiAgICAuZmlsMiB7ZmlsbDojMDAzOUE2O2ZpbGwtcnVsZTpub256ZXJvfQogICAgLmZpbDEge2ZpbGw6I0Q1MkIxRTtmaWxsLXJ1bGU6bm9uemVyb30KICAgIC5maWwwIHtmaWxsOndoaXRlO2ZpbGwtcnVsZTpub256ZXJvfQogICBdXT4KICA8L3N0eWxlPgogPC9kZWZzPgogIDxnIGlkPSLQodC70L7QuV94MDAyMF8xIj4KICA8bWV0YWRhdGEgaWQ9IkNvcmVsQ29ycElEXzBDb3JlbC1MYXllciIvPgogICAgPGcgaWQ9InJ1LnN2ZyI+CiAgIDxyZWN0IGNsYXNzPSJmaWwwIiB4PSItMCIgeT0iMCIgd2lkdGg9IjQyMTkuMTMiIGhlaWdodD0iMTY4Ny42OCIvPgogICAgICA8cmVjdCBjbGFzcz0iZmlsMSIgeD0iLTAiIHk9IjEyNjUuNzciIHdpZHRoPSI0MjE5LjEzIiBoZWlnaHQ9IjE2ODcuNjgiLz4KICAgICAgPHJlY3QgY2xhc3M9ImZpbDIiIHg9Ii0wIiB5PSI4NDMuODYiIHdpZHRoPSI0MjE5LjEzIiBoZWlnaHQ9IjEwNTQuNzkiLz4KICA8L2c+CiA8L2c+Cjwvc3ZnPgo="
+                                    alt="">
+                                Rus
+                            </li>
+                            <li class="lang-item">
+                                <img src="https://cdn.britannica.com/47/7247-004-44F420D7/Flag-Uzbekistan.jpg" alt="">
+                                Uzb
+                            </li>
+                            <li class="lang-item">
+                                <img src="data:image/png;base64,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"
+                                    alt="">
+                                Eng
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="rounded discount">
+                        % Chegirmalar
+                    </div>
+                    <div class="rounded rassrochka">
+                        <span class="rounded-span">
+                            0 %
+                        </span>
+                        Muddatli to'lov
+                    </div>
+                </div>
+                <div class="header-top__right-side">
+                    <ul class="header-top__items">
+                        <li class="header-top_item">
+                            <a href="#">Bizga qo'shiling</a>
+                        </li>
+                        <li class="header-top_item">
+                            <a href="#">
+                                Yordam
+                            </a>
+                        </li>
+                        <li class="header-top_item">
+                            <a href="#">
+                                Sayt xaritasi
+                            </a>
+                        </li>
+                        <li class="header-top_item">
+                            <a href="tel:+998712022021" class="tel"> +998 (71) 202 202 1 </a>
+                        </li>
+                        <li class="header-top_item">
+                            <div class="call-me">
+                                Qo'ng'iroq qilishni so'rash
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="line-header">
+            <p>
+
+            </p>
+        </div>
+
+        <div class="wrapper">
+            <div class="main-header">
+                <div class="logo">
+                    <a href="#">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJwAAAAdCAMAAABoivUCAAAARVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////9SnXPCAAAAFnRSTlMAQMCAEKBgML8g8FBwf5DvsNDP36/gHk3eyAAAAvtJREFUWMPtl8miqyAMhiujDCoO9f0f9SpTgNja3k03519REshniJE+3qhb9k3e2n8juR+a1K39Jxr3U/bW/hMRH5z+hx3rD+43cHLo131fNqteBpdjPx0T/aCwHW/H+1ODuTCavrfwi/Z9cBJDrS41hX7P4grBIRdW282wHRgshWN8At91aNnsOT1Wr5Xxg1Y2O4AmcQFHaxdZ2LsV1sFC0NbAPf1sehD/YzlGO9IEmxUSCI6368AuYNb74jAcwMDcxQPZE+qO5QMjmQbOIg+W7EuagYi6dZafwOFjdUfBxOFMBeU6JoZVcCq6PKmxwUV7O1IfKvtwmUdKafLg93CHJI2K2dIqlYAOR6lmOCCA42WBMucPHuA04ZmTBZeOPcrtpnu4QmwJ28qcOJNMc1tTqWjhBZOdKkqVsHPqCSFLyTCtvoBjCxDxECHbVFoLcCI8CbtswjoEFgiufNbuUzh4ZgFjgRs/DCgUDoYjVyHFtvoet4nlWzgObOCaRTMcGmA4OOwn7BMbH+germXjpStr4UYEZ99/W0kOaQDqazhRv966XT2ihLkw+BCOTbHvEELmb+CAzdUhbFvCFtWc+xBOlEWj3Ds4SHP1Y2Z1otbwGx5FFcFNnrqHa/M8voKzyQ5wcgK2qhPxusvMVfDY/tMisVn2Cg4GqJWIwTIPl9MBNVCwaYb7yqbiHyovAcHhSrJ4F9mfwzs4AwcVS3FJt5ln3M08mFn3DMfW/GEAdXvUwrfkS+pjYzq5bFukly/heEiM8sma9mbadwssn+Pg0ScN11cOrUq4pjvcwYnocWw/Fa1E58LtLuEMnhzRXRMyW1a2aFwc2FGfm3GYLs+GYgW5BEfxqinfcUAkVqSt+lHlMiL7g+c3WhauPE9TqBelwR4y6i4z94zv6KjzDHxmXflFZVRn+u7KPufmxjjs5UFsSu2sgoODWEbHoxpRcZlMYignhFpVvSv0XFW4OEK4lS/sBhYrQR2nnQexyUlSiCYtdTT2aSvSLbAWe/wD4pmeVzYlTdEAAAAASUVORK5CYII="
+                            alt="">
+                    </a>
+                </div>
+
+                <div class="rounded catalog">
+                    <span>
+                        Katalog
+                    </span>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <form>
+                    <input type="search" placeholder="Mahsulotlarni qidirish..." class="search-input">
+                    <div class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </form>
+                <div class="menu">
+                    <img src="./img/user.svg" alt="">
+                    <span>
+                        Kirish
+                    </span>
+                </div>
+                <div class="menu">
+                    <img src="./img/arrow.svg" alt="">
+                    <span>
+                        Taqqoslash
+                    </span>
+                </div>
+                <div class="menu count-box">
+                    <img src="./img/heart.svg" alt="">
+                    <span>
+                        Sevimlilar
+                    </span>
+                    <div class="count">
+                        0
+                    </div>
+                </div>
+                <div class="menu">
+                    <img src="./img/cart.svg" alt="">
+                    <span>
+                        Savatcha
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section -->
+
+    <section>
+        <div class="wrapper">
+            <div class="title">
+                <h1>
+                    Brendlar
+                </h1>
+                <p>
+                    Hammasini ko'rish >
+                </p>
+            </div>
+            <div class="brend-top">
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/Kh/1663330153.png" alt=""
+                        class="icon hover apple">
+                    <h2>
+                        Apple
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/Ko/1646038649.jpg" alt=""
+                        class="icon hover">
+                    <h2 class="sams">
+                        Samsung
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/Kd/1646038705.jpg" alt=""
+                        class="icon hover">
+                    <h2>
+                        Sony
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/Ka/1664348028.png" alt=""
+                        class="icon hover apple">
+                    <h2 class="sams">
+                        Versage
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/Kp/1646038892.jpg" alt=""
+                        class="icon hover">
+                    <h2>
+                        Xiaomi
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/KB/1646038994.jpg" alt=""
+                        class="icon hover">
+                    <h2>
+                        LG
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/Kf/1646039060.jpg" alt=""
+                        class="icon hover">
+                    <h2>
+                        Midea
+                    </h2>
+                </a>
+            </div>
+            <div class="brend-bottom">
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/KS/1628593446.jpg" alt=""
+                        class="icon hover">
+                    <h2 class="sams">
+                        Daewoo
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/Kc/1646039131.jpg" alt=""
+                        class="icon hover">
+                    <h2>
+                        Acer
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/KO/1646039181.jpg" alt=""
+                        class="icon hover">
+                    <h2>
+                        Asus
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/K6/1646039238.jpg" alt=""
+                        class="icon hover">
+                    <h2 class="hp">
+                        HP
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/K-/1646039310.jpg" alt=""
+                        class="icon hover">
+                    <h2 class="sams">
+                        Lenovo
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/K3/1646039369.jpg" alt=""
+                        class="icon hover">
+                    <h2>
+                        Dell
+                    </h2>
+                </a>
+                <a href="#" class="icons">
+                    <img src="https://olcha.uz/uploads/images/manufacturer/KK/KK/KR/1646039445.jpg" alt=""
+                        class="icon hover">
+                    <h2>
+                        Philips
+                    </h2>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <div class="proms-discount">
+            <img src="https://olcha.uz/image/380x132/discount/KK/Ko/j6/1666344706.jpg" alt="">
+        </div>
+        <div class="proms-discount">
+            <img src="https://olcha.uz/image/380x132/discount/KK/Ko/d4/1666339766.jpg" alt="">
+        </div>
+        <div class="proms-discount">
+            <img src="https://olcha.uz/image/380x132/discount/KK/Ko/Kf/1666339822.jpg " alt="">
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="title">
+            <h1>
+                Ommabop tovarlar
+            </h1>
+            <p>
+                Hammasini ko'rish >
+            </p>
+        </div>
+        <div class="phone-box">
+            <div class="phone">
+                <span>
+                    <img src="./img/heart_2.svg" alt="" class="heart">
+                </span>
+                <a href="#" class="forward">
+                    <p>
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGgKICAgIGZpbGw9IiNGOTExNTUiCiAgICBkPSJNMTQuOCA2LjRsLTUtNS4xYy0uMi0uMi0uNC0uMy0uNy0uMy0uMiAwLS41LjEtLjcuM2wtLjEuMWMtLjMuNC0uMiAxIC4xIDEuM0wxMS42IDZIOS4xQzQuNiA2IDEgOS42IDEgMTQuMWMwIC41LjQuOS45LjlzLjktLjQuOS0uOXYtLjJjLjEtMy40IDIuOC02IDYuMi02aDIuNmwtMy4yIDMuM2MtLjQuNC0uNCAxIDAgMS40LjIuMi40LjMuNy4zLjMgMCAuNS0uMS43LS4zbDUtNS4xYy4zLS4zLjMtLjggMC0xLjF6IgogIC8+Cjwvc3ZnPgo="
+                        alt="" class="link">
+                    </p>
+                    <div class="forward-box">
+                        <div class="forward-icon">
+                            <img src="./img/copy.svg" alt="" > 
+                            <span>
+                               Nusxa olish
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-facebook face"></i>
+                            <span>
+                                Facebook
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-instagram insta"></i>
+                            <span>
+                                Instagram
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-telegram"></i>
+                            <span>
+                                Telegram
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <img src="https://olcha.uz/image/200x200/products/rEES4fDb0cYy8rm4TsLWVIoh1FQeCHDj7WIT4d977eQpHrVrxNQwJxKJVDzL."
+                    alt="">
+                <p class="phone-title">
+                    Smartfonlar
+                </p>
+                <p>3 187 000 so'm</p>
+                <p class="kredit">
+                    345 000 so'mdan/oyiga
+                </p>
+                <p>
+                    Smartfon Xiaomi Redmi <br>
+                    Note 11 Pro 128Gb...
+                </p>
+                <a href="#" class="button">
+                    Xarid qilish
+                </a>
+                <img src="./img/arrow_2.svg" alt="">
+            </div>
+            <div class="phone">
+                <span>
+                    <img src="./img/heart_2.svg" alt="" class="heart">
+                </span>
+                <a href="#" class="forward">
+                    <p>
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGgKICAgIGZpbGw9IiNGOTExNTUiCiAgICBkPSJNMTQuOCA2LjRsLTUtNS4xYy0uMi0uMi0uNC0uMy0uNy0uMy0uMiAwLS41LjEtLjcuM2wtLjEuMWMtLjMuNC0uMiAxIC4xIDEuM0wxMS42IDZIOS4xQzQuNiA2IDEgOS42IDEgMTQuMWMwIC41LjQuOS45LjlzLjktLjQuOS0uOXYtLjJjLjEtMy40IDIuOC02IDYuMi02aDIuNmwtMy4yIDMuM2MtLjQuNC0uNCAxIDAgMS40LjIuMi40LjMuNy4zLjMgMCAuNS0uMS43LS4zbDUtNS4xYy4zLS4zLjMtLjggMC0xLjF6IgogIC8+Cjwvc3ZnPgo="
+                        alt="" class="link">
+                    </p>
+                    <div class="forward-box">
+                        <div class="forward-icon">
+                            <img src="./img/copy.svg" alt="" > 
+                            <span>
+                               Nusxa olish
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-facebook face"></i>
+                            <span>
+                                Facebook
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-instagram insta"></i>
+                            <span>
+                                Instagram
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-telegram"></i>
+                            <span>
+                                Telegram
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <img src="https://olcha.uz/image/200x200/products/Q25xwR9W7nPpnHwKTdWcPs0yHQPLLG9u1z6P5Z88f8RePUN8hUCJbkQo7ipz.jpeg"
+                    alt="">
+                <p class="phone-title">
+                    Smartfonlar
+                </p>
+                <p>2 463 000 so'm</p>
+                <p class="kredit">
+                    266 000 so'mdan/oyiga
+                </p>
+                <p>
+                    Smartfon Xiaomi Redmi <br>
+                    Note 11 6 Gb 128Gb Grafit...
+                </p>
+                <a href="#" class="button">
+                    Xarid qilish
+                </a>
+                <img src="./img/arrow_2.svg" alt="">
+            </div>
+            <div class="phone">
+                <span>
+                    <img src="./img/heart_2.svg" alt="" class="heart">
+                </span>
+                <a href="#" class="forward">
+                    <p>
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGgKICAgIGZpbGw9IiNGOTExNTUiCiAgICBkPSJNMTQuOCA2LjRsLTUtNS4xYy0uMi0uMi0uNC0uMy0uNy0uMy0uMiAwLS41LjEtLjcuM2wtLjEuMWMtLjMuNC0uMiAxIC4xIDEuM0wxMS42IDZIOS4xQzQuNiA2IDEgOS42IDEgMTQuMWMwIC41LjQuOS45LjlzLjktLjQuOS0uOXYtLjJjLjEtMy40IDIuOC02IDYuMi02aDIuNmwtMy4yIDMuM2MtLjQuNC0uNCAxIDAgMS40LjIuMi40LjMuNy4zLjMgMCAuNS0uMS43LS4zbDUtNS4xYy4zLS4zLjMtLjggMC0xLjF6IgogIC8+Cjwvc3ZnPgo="
+                        alt="" class="link">
+                    </p>
+                    <div class="forward-box">
+                        <div class="forward-icon">
+                            <img src="./img/copy.svg" alt="" > 
+                            <span>
+                               Nusxa olish
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-facebook face"></i>
+                            <span>
+                                Facebook
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-instagram insta"></i>
+                            <span>
+                                Instagram
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-telegram"></i>
+                            <span>
+                                Telegram
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <p class="term-payment">
+                    <span>
+                        0 | 0 | 5 <br>
+                        muddatli <br>
+                        to'lov
+                    </span>
+                </p>
+                <img src="https://olcha.uz/image/200x200/products/bx1kVQH3qg8B42jYfMdTOM53Dc8YnUcxUMFbDthCuHzHOB6DoKmwPX0ahTXx.jpeg"
+                    alt="">
+                <p class="phone-title">
+                    Smartfonlar
+                </p>
+                <p>3 266 000 so'm</p>
+                <p class="kredit">
+                    353 000 so'mdan/oyiga
+                </p>
+                <p>
+                    Samsung Galaxy A33 5G <br>
+                    6/128Gb Qora
+                </p>
+                <a href="#" class="button">
+                    Xarid qilish
+                </a>
+                <img src="./img/arrow_2.svg" alt="">
+            </div>
+            <div class="phone action">
+                <span>
+                    <img src="./img/heart_2.svg" alt="" class="heart">
+                </span>
+                <a href="#" class="forward">
+                    <p>
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGgKICAgIGZpbGw9IiNGOTExNTUiCiAgICBkPSJNMTQuOCA2LjRsLTUtNS4xYy0uMi0uMi0uNC0uMy0uNy0uMy0uMiAwLS41LjEtLjcuM2wtLjEuMWMtLjMuNC0uMiAxIC4xIDEuM0wxMS42IDZIOS4xQzQuNiA2IDEgOS42IDEgMTQuMWMwIC41LjQuOS45LjlzLjktLjQuOS0uOXYtLjJjLjEtMy40IDIuOC02IDYuMi02aDIuNmwtMy4yIDMuM2MtLjQuNC0uNCAxIDAgMS40LjIuMi40LjMuNy4zLjMgMCAuNS0uMS43LS4zbDUtNS4xYy4zLS4zLjMtLjggMC0xLjF6IgogIC8+Cjwvc3ZnPgo="
+                        alt="" class="link">
+                    </p>
+                    <div class="forward-box">
+                        <div class="forward-icon">
+                            <img src="./img/copy.svg" alt="" > 
+                            <span>
+                               Nusxa olish
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-facebook face"></i>
+                            <span>
+                                Facebook
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-instagram insta"></i>
+                            <span>
+                                Instagram
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-telegram"></i>
+                            <span>
+                                Telegram
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <img src="https://olcha.uz/image/200x200/products/YqLPUnnHd4PKlO3vEbCXpcvDSo3cMoxpNoQeVpaASr6HLOyh7QxVs1ewDzhQ.jpeg"
+                    alt="">
+                <p>
+                    <img src="https://olcha.uz/_nuxt/img/deliveryicon.8c80bac.svg" alt="" class="delivery">
+                </p>
+                <p>
+                    Smartfonlar
+                </p>
+                <p>
+                    <s>
+                        3 399 000 so'm
+                    </s>
+                </p>
+                <p>2 848 000 so'm</p>
+                <p class="kredit">
+                    308 000 so'mdan/oyiga
+                </p>
+                <p>
+                    Smartfon Samsung Galaxy <br>
+                    A32 6 GB 128Gb Qora
+                </p>
+                <a href="#" class="button">
+                    Xarid qilish
+                </a>
+                <img src="./img/arrow_2.svg" alt="">
+            </div>
+            <div class="phone">
+                <span>
+                    <img src="./img/heart_2.svg" alt="" class="heart">
+                </span>
+                <a href="#" class="forward">
+                    <p>
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGgKICAgIGZpbGw9IiNGOTExNTUiCiAgICBkPSJNMTQuOCA2LjRsLTUtNS4xYy0uMi0uMi0uNC0uMy0uNy0uMy0uMiAwLS41LjEtLjcuM2wtLjEuMWMtLjMuNC0uMiAxIC4xIDEuM0wxMS42IDZIOS4xQzQuNiA2IDEgOS42IDEgMTQuMWMwIC41LjQuOS45LjlzLjktLjQuOS0uOXYtLjJjLjEtMy40IDIuOC02IDYuMi02aDIuNmwtMy4yIDMuM2MtLjQuNC0uNCAxIDAgMS40LjIuMi40LjMuNy4zLjMgMCAuNS0uMS43LS4zbDUtNS4xYy4zLS4zLjMtLjggMC0xLjF6IgogIC8+Cjwvc3ZnPgo="
+                        alt="" class="link-end">
+                    </p>
+                    <div class="forward-box-end">
+                        <div class="forward-icon">
+                            <img src="./img/copy.svg" alt="" > 
+                            <span>
+                               Nusxa olish
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-facebook face"></i>
+                            <span>
+                                Facebook
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-instagram insta"></i>
+                            <span>
+                                Instagram
+                            </span>
+                        </div>
+                        <div class="forward-icon">
+                            <i class="fa-brands fa-telegram"></i>
+                            <span>
+                                Telegram
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <img src="https://olcha.uz/image/200x200/products/6ncU4pFD3gFUNDVtPXVn521Iv2AOCN4q7NYzR7D6Z8YaP1krVM0DQtCRPrKM.png"
+                alt="">
+            <p>
+                Smartfonlar
+            </p>
+            <p>
+                <s>
+                    5 500 000 so'm
+                </s>
+            </p>
+            <p>4 443 000 so'm</p>
+            <p class="kredit">
+                449 000 so'mdan/oyiga
+            </p>
+            <p>
+                Smartfon Samsung Galaxy <br>
+                A72 8/128 GB Moviy
+            </p>
+            <a href="#" class="button">
+                Xarid qilish
+            </a>
+            <img src="./img/arrow_2.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer-up">
+                <div class="footer-up_left-side">
+
+                    <div class="footer-box">
+                        <div class="footer-box-left_side">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJwAAAAdCAMAAABoivUCAAAAP1BMVEUAAADrFDbrFDTrFDbrFDbvEDDqFTbsEzXqFTXvEDjsEzbqFTbrFDfrFDbsEzfrFDfqFTfrFDbrFDfqFTfrFTdczmhMAAAAFHRSTlMAwECA8BDQYDAgUKBwf5Cw36/gnx0MDQsAAALoSURBVFjD7ZfLgqsgDIYbwx28+/7PeqwNBogdO7Pp5vwrSgL5DDHSxw/qzDa7W/t35LZdyt/av6Jheyrd2r8iOILjH+xS/+G+A+d6mLbNzMm/De4GUPsE9F7a5XYrPNWHC2MAKCoVAV5Otq/V5aYA26nVCzjhomt76OcdQ+dwelXsO/UtW3pOD9VrFWhQK50OLGUv4LB2cYW9m3gdL2TNDdxyzOYHOX6YfbQJKdqslhVwsV3HdktT2VeGWRmMzR0dyJZRNykK3Cg0cEl46Gw3eYYjqtbZfQInj3XcC4aGBi1G2lfpCs6Ty4IhRcWZE4JXZe8uZkDE7BHv4XY5JEWC8FQCuWC84QNiuFgWqB6Pg2c4BfHk1C+XTj/K7dQ9XCFNi9yZuJBNpq2pXLT8grnOF6UK+jm1cMhS7jXtfwGnDRNFOo8sn9cynKWjlk2Yv/xWwJXP2n0Kx89seWxl4+cBcuFIOLgKaefp6HGz/TVcJDbpyh0NJaWAqw574X2o8bHu4Vq2WLrqFm4QcOnnbytQSKriP8LZ+vVW7epBJGykwWdwWlHfAQDzGzhmG+sQqS3hJGpu/BDOlkXjxxs4SnP1w+g6URP9Ph/FF8HDOXUP1+Z5eAeXsp3hnCK2thOtdZcxVXBuaPQuJv0ejgayldg+aYKjdHANFGxKy74ye/pDdchWwZHSfbg4eA7v4AIfFJWiybeZhXYLDx0m/sTrfUwurG4jmXXOvlAfm1bZZZ6J3r2Fi6/EePrKNtPtRYPhDGUUsvrrK4fyJVzTHe7gLHkAgCpaCY09ZaPRZQMa5F2TMltXtpW3GbLLPmcu+5zhhgrlRhkOry+bnP268FPVjyqXQdjpsDwVdlY8p5HrxSu2P9R5cxNa6B0d1DnDn9mx/KJqPF2gu7Kbs7npyHsdICmn1ni6dXGsoOioBpG4cJIEjACYfPWuoKMRuYwAMbk39sCLvcUxYneApOzkkKO5hCNSn0423wJr6cc/ax2OvLqICpMAAAAASUVORK5CYII="
+                                alt="">
+                            <p>
+                                Qo'llab-quvvatlash telefon raqami
+                            </p>
+                            <a href="tel:+998712022021">
+                                +998 (71) 202 202 1
+                            </a>
+                        </div>
+                        <div class="footer-box-right_side">
+                            <a href="#" class="footer-icon">
+                                <i class="fa-brands fa-facebook"></i>
+                                <span>
+                                    Facebook
+                                </span>
+                            </a href="#">
+                            <a href="#" class="footer-icon">
+                                <i class="fa-brands fa-instagram"></i>
+                                <span>
+                                    Instagram
+                                </span>
+                            </a href="#">
+                            <a href="#" class="footer-icon">
+                                <i class="fa-brands fa-telegram"></i>
+                                <span>
+                                    Telegram
+                                </span>
+                            </a href="#">
+                        </div>
+                    </div>
+                    <div class="footer-box_bottom">
+                        <img src="https://olcha.uz/_nuxt/img/appstore.367673c.png" alt="app store">
+                        <img src="https://olcha.uz/_nuxt/img/googleplay.c20cdde.png" alt="google play">
+                        <img src="https://olcha.uz/_nuxt/img/app-gallery.9b99158.svg" alt="app Gallery"
+                            class="appgalery">
+                    </div>
+                </div>
+                <div class="footer-box_center">
+                    <div class="footer-center">
+                        <div class="footer-center-left_side">
+                            <h3>
+                                Ma'lumot
+                            </h3>
+                            <p>
+                                Biz haqimizda
+                            </p>
+                            <p>
+                                Bo'sh ish o'rinlari
+                            </p>
+                            <p>
+                                Ommaviy oferta
+                            </p>
+                            <p>
+                                To'lovni qaytarish va tovarlarni <br>
+                                almashtirish
+                            </p>
+                            <p>
+                                Muddatli to'lov shartlari
+                            </p>
+                            <p>
+                                Onlayn to'lash
+                            </p>
+                            <a href="#" class="click">
+                                Kontaklar
+                            </a>
+                            <a href="mailto:info@olcha.uz" class="click">
+                                Info@olcha.uz
+                            </a>
+                        </div>
+                        <div class="footer-center-right_side">
+                            <p>
+                                Eco-friendly
+                            </p>
+                            <p>
+                                Shaxsiy ma'lumotlar bilan
+                                ishlash bo'yicha Siyosat
+                            </p>
+                            <p>
+                                To'lov va yetkazib berish
+                            </p>
+                            <p>
+                                Bonus va aksiyalar
+                            </p>
+                            <p>
+                                Servis markazlar
+                            </p>
+                            <a href="#" class="click">
+                                Fikr qoldiring
+                            </a>
+                            <a href="#" class="click">
+                                Manzil
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="card-up">
+                        <div class="footer-up-right_side">
+                            <div class="card">
+                                <img src="https://olcha.uz/_nuxt/img/apelsin.93106ae.png" alt="">
+                            </div>
+                            <div class="card uzcard">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAjCAMAAADrNwfvAAAArlBMVEUAAAAAPYcAPocAPYcAO4UAOYUANYYAPocAPIYAPYcAP4YAPIYAP4gAPocAPogAPocAPoUAQnYAOoUAPoYAPYcAPYYAPocAPYYAPocAPocAPYcAPocAPocAPYcAPocAPoUAPocAPYcAPoYAPokAPYYAPocAPocAPYYAPocAPYcAPogAPocAPYcAPof/hgD/gAAAPYgAPYYAPYf/iQD/hwD/igAAO4T/gAAAPof/iAAXwlIsAAAAOHRSTlMA/fmHGikJwSXzeFmnk3TrIAMWgmUP5bh9793Ww2lLQNCccDk0y4xFq2BSLqOVaQa7s5OG5MQeEsvbhOMAAAIkSURBVEjH3ZRpz6IwEIDbUgtF5RBEFA8Q72N9jz3G///HFmZqSMy7yQb5sNnnA5kp7UNnKLA/YQEyoMz25ef9fv/G2vDsguj2ozPXtPz1+b0jF+hY3W7duCryouzGhSz+Z1ffQ85duEYSUf9aja+5IkAOlM0pO7ZzuYDMMVEZZad2riMgPrbb0ZS1fI+lAMSrk5Rirdq51AwQYW02lvFuWUuuYBAcDGlbVyDgCX/E2pI+qXiftUbtwGAax17hOGtU2Yq9Rngq8qnWib3bh6wDQvU3mvJjKFk3jGbAe0z1al+IVzbuIWYj4/0STwHdcWiU5oyNogqDelz64EsWcLuKHT5hFWuOOLhmqAHEVdEqi/MlRX1eIS5odus4sVQ1+tZnLIB549p4nvdGZzK8QL6I5xDR+UiEOBgXTLw0gzW6YODtcnhH8ZOrjhLawF5ksipiTVUuocj0yLiiOr+QK67m5LD60qVs+MDAoycT4USsLFgb19U5F5AaF/6eoi9dEdjKfEFx4zrrXDliq8glhOAzp3GdYPdwbetGwTvVon2HxmP6PZPYhW0UTcWGXLalfckal/V47HjG++NgABaKM+5KKWlcuKPxwo9r4ZbrCige/bIgNS5X9lLhB4yIhZj5kGFj1wDTirKOVxqShPu9OqxKcpySJ8q4ZOL/JJeeCkiaT3VV2BOP9rwfIg5V707stIdbGZ5w5TCo2zFc1m09hGb+ri8Z8RuJv2K4FAf4iAAAAABJRU5ErkJggg=="
+                                    alt="">
+                            </div>
+                            <div class="card">
+                                <img src="https://olcha.uz/_nuxt/img/payme.e57aa2a.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="card">
+                                <img src="https://olcha.uz/_nuxt/img/click.93445f6.png" alt="">
+                            </div>
+                            <div class="card humo">
+                                <img src="https://olcha.uz/_nuxt/img/humo.7dc7e40.jpeg" alt="">
+                            </div>
+                            <div class="card paynet">
+                                <img src="https://olcha.uz/_nuxt/img/logo-paynet.48b4b59.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line-footer">
+                <p>
+
+                </p>
+            </div>
+            <div class="wrapper">
+                <div class="footer-about">
+                    <div>
+                        <p>
+                            © 2017-2022. OOO "Olcha store"
+                        </p>
+                    </div>
+                    <div>
+                        <a href="#">
+                            Ommaviy oferta
+                        </a>
+                        <a href="#">
+                            Maxfiylik siyosati
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+<!--                                                               <img src="https://olcha.uz/image/200x200/products/6ncU4pFD3gFUNDVtPXVn521Iv2AOCN4q7NYzR7D6Z8YaP1krVM0DQtCRPrKM.png"
+                    alt="">
+                <p>
+                    Smartfonlar
+                </p>
+                <p>
+                    <s>
+                        5 500 000 so'm
+                    </s>
+                </p>
+                <p>4 443 000 so'm</p>
+                <p class="kredit">
+                    449 000 so'mdan/oyiga
+                </p>
+                <p>
+                    Smartfon Samsung Galaxy <br>
+                    A72 8/128 GB Moviy
+                </p>
+                <a href="#" class="button">
+                    Xarid qilish
+                </a>
+                <img src="./img/arrow_2.svg" alt="">-->

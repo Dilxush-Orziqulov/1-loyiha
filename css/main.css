@@ -1,0 +1,17 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(section.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+    flex-wrap: wrap;
+}

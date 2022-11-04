@@ -1,0 +1,45 @@
+@import url(main.css);
+
+
+/* Header */
+
+
+
+.header-top,
+.header-top__left-side,
+.lang,
+.lang-active,
+.header-top__items,
+.main-header,
+form,
+.search-btn,
+.menu,
+.brend-top,
+.brend-bottom,
+.phone-box,
+footer,
+.footer-up,
+.footer-box,
+.footer-center,
+.footer-box_center, 
+.footer-up-right_side, 
+.card-box,  
+.footer-about{
+    display: flex;
+}
+
+.proms-discount {
+    display: inline-block;
+    margin: 20px auto;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.proms-discount:nth-child(2) {
+    margin: 0 130px;
+}
+
+.proms-discount img {
+    border-radius: 20px;
+}

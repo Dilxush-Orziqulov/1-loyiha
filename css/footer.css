@@ -1,0 +1,164 @@
+@import url(style.css);
+
+/* Footer */
+
+/* Footer left side */
+
+footer {
+    background-color: #242020;
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-box {
+    padding: 18px;
+    margin: 10px;
+}
+
+.footer-box-left_side {
+    width: 380px;
+    margin: 10px;
+}
+
+.footer-box-left_side p {
+    margin: 20px 22px 7px 0;
+}
+
+.footer-box-left_side a {
+    margin: 5px 10px 15px 0;
+}
+
+.footer-box-left_side img {
+    cursor: pointer;
+}
+
+.footer-icon {
+    display: inline-block;
+    margin: 20px 10px;
+    font-size: 25px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.appgalery {
+    width: 170px;
+}
+
+.footer-up_left-side {
+    margin: 5px 0 150px;
+}
+
+.footer-center-right_side {
+    margin: 40px 0 0 8px;   
+    line-height: 46px;
+}
+
+.footer-box_bottom {
+    cursor: pointer;
+}
+
+.footer-box_bottom img:nth-child(1) {
+    margin: 5px 0 3px 30px;
+}
+
+/* Footer left side the end */
+
+/* Footer center */
+
+h3 {
+    color: #eb182a;
+    margin-left: 10px;
+}
+
+.footer-center {
+    width: 430px;
+    margin: 5px 20px;
+    line-height: 2em;
+}
+
+.footer-center p {
+    margin: 3px 10px;
+    cursor: pointer;
+}
+
+.click:hover {
+    color: #eb182a;
+}
+
+.footer-center p:hover {
+    color: #979797;
+}
+
+.footer-center a {
+    display: block;
+}
+
+.footer-up-right_side {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.card img{
+    width: 90px;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    padding: 10px;
+}
+
+.card-up {
+    margin-left: 65px;
+}
+
+.card {
+    background-color: #fff;
+    display: inline-block;
+    height: 80px;
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.uzcard {
+    margin: 0 15px;
+}
+
+.humo {
+    margin: 15px 8px 0;
+}
+
+.paynet img{
+    top: 20px;
+}
+
+/* Footer right the end */
+
+/* Footer bottom */
+
+
+.line-footer{
+    width: 1580px;
+    height: 2px;
+    background-color: #000;
+    margin-left: -80px;
+}
+
+.footer-about {
+    justify-content: space-between;
+    align-items: center;
+    color: #989898;
+    margin-top: 10px;
+}
+
+.footer-about p {
+    margin-left: -80px;
+}
+
+.footer-about a {
+    color: #989898;
+    margin: 0 -60px 0 90px;
+
+}
